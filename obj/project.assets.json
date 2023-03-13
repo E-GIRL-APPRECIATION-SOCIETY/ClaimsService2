@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net7.0": {
       "Castle.Core/5.1.1": {
         "type": "package",
         "dependencies": {
@@ -8053,7 +8053,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net7.0": [
       "MSTest.TestAdapter >= 2.2.8",
       "MSTest.TestFramework >= 2.2.10",
       "Microsoft.EntityFrameworkCore.InMemory >= 6.0.10",
@@ -8066,29 +8066,31 @@
     ]
   },
   "packageFolders": {
-    "/Users/mac/.nuget/packages/": {}
+    "C:\\Users\\zulud\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mac/Documents/4_semester/Taksa_project/ClaimsService/ClaimsService.csproj",
+      "projectUniqueName": "C:\\Users\\zulud\\OneDrive\\Dokumenter\\Skole\\Fag\\4. semester\\IT_Arkitektur_og_Infrastruktur\\modul02\\ClaimsService2\\ClaimsService.csproj",
       "projectName": "ClaimsService",
-      "projectPath": "/Users/mac/Documents/4_semester/Taksa_project/ClaimsService/ClaimsService.csproj",
-      "packagesPath": "/Users/mac/.nuget/packages/",
-      "outputPath": "/Users/mac/Documents/4_semester/Taksa_project/ClaimsService/obj/",
+      "projectPath": "C:\\Users\\zulud\\OneDrive\\Dokumenter\\Skole\\Fag\\4. semester\\IT_Arkitektur_og_Infrastruktur\\modul02\\ClaimsService2\\ClaimsService.csproj",
+      "packagesPath": "C:\\Users\\zulud\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zulud\\OneDrive\\Dokumenter\\Skole\\Fag\\4. semester\\IT_Arkitektur_og_Infrastruktur\\modul02\\ClaimsService2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/mac/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\zulud\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {}
         }
       },
@@ -8099,8 +8101,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "dependencies": {
           "MSTest.TestAdapter": {
             "target": "Package",
@@ -8158,7 +8160,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
