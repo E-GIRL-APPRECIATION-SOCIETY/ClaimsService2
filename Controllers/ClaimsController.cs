@@ -19,7 +19,7 @@ public class ClaimsController : ControllerBase
 
     private readonly ILogger<ClaimsController> _logger;
 
-    public ClaimsController(ILogger<ClaimsController> logger, List<Claims> claims)
+    public ClaimsController(ILogger<ClaimsController> logger)
     {
         _logger = logger;
         _logger.LogInformation("Metode ClaimsController called at {time}", DateTime.Now,
